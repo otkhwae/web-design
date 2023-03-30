@@ -1,0 +1,31 @@
+
+#theform{
+    color: rgb(117, 241, 133);
+    display: table;
+    padding: 15px;
+    background-color: coral;
+    border: solid 2px black;
+}
+
+.row{
+    display: table-row;
+}
+
+.row label {
+    display: table-cell;
+    padding:  2px;
+    text-align: right;
+}
+
+.row input {
+    display: table-cell;
+    padding: 2px;
+}
+
+
+
+
+
+
+
+
