@@ -1,0 +1,45 @@
+body {
+    color: green;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+
+h4 {
+    border: dashed red;
+    font-weight: bold;
+}
+
+h1, h2 {
+    text-decoration: underline;
+
+}
+
+h3 {
+    text-decoration: underline overline;
+}
+
+
+p {
+    color: darkmagenta;
+    font-size: 25px;
+    }
+
+h3.pink {
+    color: pink;
+}
+
+p.yellow {
+    color: yellow;
+    font-size: 10px;
+}
+
+.orange{
+    color: orange;
+}
+
+
+
+
+
+
+

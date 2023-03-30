@@ -1,0 +1,78 @@
+body {
+    color: green;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    background-color: black;
+    font-size: 25px
+}
+
+h2 {
+    text-decoration: overline underline;
+    font-size: 150%
+}
+
+h2 {
+    text-decoration: overline underline;
+    font-size: 1.2em
+}
+
+p.para1 {
+    color: darkmagenta;
+    }
+
+p.para2 {
+    color: pink;
+}
+
+p.para3 {
+    color: brown;
+    line-height: 1.5em;
+    background-color: grey;
+    padding: 20px;
+    border-color: whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    background-image: url(clouds.jpg);
+
+}
+
+p.para4 {
+    color: rgb(67, 165, 42);
+    line-height: 1.5em;
+    background-color: grey;
+    padding: 20px;
+    border-color: whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    margin: 20px;
+    margin-top: 50px;
+
+}
+
+p.para5 {
+    color: rgb(42, 118, 199);
+    line-height: 1.5em;
+    background-color: grey;
+    padding: 20px 20px 20px 70px;
+    border-color: whitesmoke 2px solid;
+
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 400px;
+    padding-left: 80px;
+
+}
+
+.imagec{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    border-style: solid;
+}
+
+
+
+
+
+
+
