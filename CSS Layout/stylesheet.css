@@ -1,0 +1,93 @@
+body{
+    background-color:darkcyan;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#header{
+    background-color:beige;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+#navbar{
+    background-color:beige;
+    margin: 10px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.main{
+    background-color:rgb(250, 248, 236);
+    margin-left: 10px;
+    margin-right: 320px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+}
+
+h1 {
+    font-size: 120%;
+    color:crimson;
+}
+
+h2 {
+    font-size: 120%;
+    color:darkblue;
+}
+
+.sideright {
+    background-color:rgb(250, 248, 236);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 105%;
+    float: right;
+    width: 260px;
+    clear: right;
+}
+
+.imagesidebar {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 300px;
+    clear: right;
+    opacity: 1.0;
+    transition: opacity .5s ease-in-out;
+}
+
+.imagesidebar:hover {
+
+    opacity: .4;
+}
+
+#footer {
+    background-color:beige;
+    margin: 10px;
+    height: 60px;
+    border-radius: 5px;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
