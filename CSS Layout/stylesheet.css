@@ -1,3 +1,4 @@
+/*=============== LAYOUT SECTION ==============*/
 body{
     background-color:darkcyan;
     margin: 0px;
@@ -12,12 +13,31 @@ body{
     border-radius: 5px;
 }
 
-#navbar{
+#navbar ul {
     background-color:beige;
     margin: 10px;
-    height: 35px;
     border-radius: 5px;
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
 }
+
+#navbar ul li {
+display: inline;
+}
+
+#navbar ul li a {
+    text-decoration: none; /*underline*/
+    font-family: 'Courier New', Courier, monospace;
+    padding: .2em 1 em;
+    color:rgb(10, 8, 8);
+    background-color:beige;
+    }
+
+    #navbar ul li a:hover {
+        color: gainsboro;
+        background-color: rgb(224, 157, 214);
+        }
 
 .main{
     background-color:rgb(250, 248, 236);
@@ -28,16 +48,6 @@ body{
     border-radius: 5px;
     padding: 20px;
     font-size: 110%;
-}
-
-h1 {
-    font-size: 120%;
-    color:crimson;
-}
-
-h2 {
-    font-size: 120%;
-    color:darkblue;
 }
 
 .sideright {
@@ -78,8 +88,61 @@ h2 {
     height: 60px;
     border-radius: 5px;
     clear: both;
+    text-align: center;
+    padding: 15px;
+    font-size: 90%;
+    color: crimson;
 }
 
+#footer ul   { 
+    padding: 5px; 
+    list-style-type: none; 
+    text-align: center; 
+    margin: 10px;
+    border-radius: 5px;
+    } 
+    
+    #footer ul  li  {   
+    display: inline;
+    } 
+    
+    #footer ul li a { 
+    text-decoration: none; 
+    font-family:Arial;
+    padding: .2em 1em; 
+    color: rgb(10, 8, 8); 
+    background-color:beige; 
+    } 
+    
+    #footer ul li a:hover { 
+    color: gainsboro; 
+    background-color: rgb(224, 157, 214); 
+    } 
+
+
+/*=============== HEADINGS SECTION ==============*/
+h1 {
+    font-size: 120%;
+    color:crimson;
+}
+
+h2 {
+    font-size: 120%;
+    color:darkblue;
+}
+
+h3 {
+    font-size: 250%;
+    text-align: center;
+    color: coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+}
 
 
 
