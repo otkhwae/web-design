@@ -1,10 +1,11 @@
 
-let age = 21;
-let height = 2;
+
+function changeStyle(params) {
+    //var text = document.getElementById('para1').style.color='blue';
+    var text = document.getElementById('para1').style.backgroundColor='orange';
+}
 
 
-document.getElementById('p1').innerHTML = 'hi you are ' + age;
-
-
-
-
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+}
