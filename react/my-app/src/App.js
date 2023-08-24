@@ -8,6 +8,10 @@ import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet';
+import FunctionalCounter from './components/FunctionalCounter';
+import Products from './components/Products';
+
 
 function App() {
   return (
@@ -29,7 +33,10 @@ function App() {
       <ClassClick/> 
       <EventBind/> */}
       {/* <ParentComponent/> */}
-      <NameList />
+      {/* <NameList /> */}
+      {/* < StyleSheet primary= {true}/> */}
+      {/* <FunctionalCounter /> */}
+      <Products></Products>
 
 
 
