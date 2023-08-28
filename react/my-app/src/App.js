@@ -11,6 +11,7 @@ import NameList from './components/NameList';
 import StyleSheet from './components/StyleSheet';
 import FunctionalCounter from './components/FunctionalCounter';
 import Products from './components/Products';
+import Form from './components/Form'
 
 
 function App() {
@@ -36,7 +37,9 @@ function App() {
       {/* <NameList /> */}
       {/* < StyleSheet primary= {true}/> */}
       {/* <FunctionalCounter /> */}
-      <Products></Products>
+      {/* <Products></Products> */}
+      <Form />
+      
 
 
 
