@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+
+}
+.header {
+    background-color: royalblue;
+    height: 50px;
+    font-size: 2em;
+    color:azure;
+    padding: 20 px;
+    
+}

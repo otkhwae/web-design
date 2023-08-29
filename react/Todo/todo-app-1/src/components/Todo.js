@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import ListItem from './ListItem';
 const Todo = () => {
     // usestate returns an array with 2 values
     //therefore destructure in line
@@ -42,6 +42,13 @@ const Todo = () => {
                 <input value={todo} onChange= {handleChange} type="text" />
                 <button type='submit'> Add</button>
             </form>
+            {/* we loop the array and return jsx */}
+            {/* {todoList.map((item) => <h3>{item}</h3>)} */}
+            {todoList.map((item) => <ListItem 
+            key= {item} 
+            name={item}
+            />)}
+                    
         </div>
     )
 }
