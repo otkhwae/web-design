@@ -10,7 +10,7 @@ export default function Form({todo, setTodo,todoList,SetTodoList}) {
 const handleSubmit = event =>{
     event.preventDefault ()
     SetTodoList([...todoList,todo])
-    console.log(todoList)
+    //console.log(todoList)
 }
   
     return (
